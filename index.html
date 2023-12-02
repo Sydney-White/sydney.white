@@ -14,13 +14,14 @@
         }
         h1 {
             font-size: 2em;
+            margin-bottom: 10px;
         }
         p {
             font-size: 1.1em;
+            margin-bottom: 20px;
         }
         .links {
-            text-align: left;
-            margin-top: 20px;
+            margin-bottom: 20px;
         }
         .links a {
             text-decoration: none;
@@ -34,6 +35,7 @@
             padding: 1%;
             width: 25%;
             max-width: 25%;
+            margin-bottom: 20px;
         }
         .profile-img img {
             max-width: 100%;
@@ -42,24 +44,32 @@
     </style>
 </head>
 <body>
-    <h1>Sydney White</h1>
-    <p>
-        I am currently working as a predoctoral fellow at Yale University (2022-2024). Broadly, I am interested in (contemporary and historical) international political economy. 
-        I seek to use a variety of research techniques, including quantitative statistical inference, text analysis, qualitative and archival research, and geo-spatial work in ArcGIS and R.
-    </p>
-    <p>
-        I graduated from Swarthmore College in 2022, where I studied political science and French.
-    </p>
-    <div class="links">
-        <a href="mailto:sydney.white@yale.edu">Email</a> &nbsp;/&nbsp;
-        <a href="CV - White.pdf">CV</a> &nbsp;/&nbsp;
-        <a href="https://www.linkedin.com/in/sydney-white/">LinkedIn</a>
-    </div>
-    <div class="profile-img">
-        <a href="headshot"><img alt="profile photo" src="Headshot - White.png" class="hoverZoomLink"></a>
-    </div>
-    <div class="Math_Camp_R_Document">
-    <p>Teaching Materials: <th><a href="Math_Camp_R_Document (9).pdf"> Yale Math Camp 2023 (Introduction to R and Simple Linear Regression)</p>
-</div>
+    <header>
+        <h1>Sydney White</h1>
+        <nav class="links">
+            <a href="mailto:sydney.white@yale.edu">Email</a> /
+            <a href="CV - White.pdf">CV</a> /
+            <a href="https://www.linkedin.com/in/sydney-white/">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>
+                I am currently working as a predoctoral fellow at Yale University (2022-2024). Broadly, I am interested in (contemporary and historical) international political economy. I seek to use a variety of research techniques, including quantitative statistical inference, text analysis, qualitative and archival research, and geo-spatial work in ArcGIS and R.
+            </p>
+            <p>
+                I graduated from Swarthmore College in 2022, where I studied political science and French.
+            </p>
+        </section>
+        <section class="Math_Camp_R_Document">
+            <h2>Teaching Materials: Yale Math Camp 2023</h2>
+            <p><a href="Math_Camp_R_Document (9).pdf">Introduction to R and Simple Linear Regression</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="profile-img">
+            <a href="headshot"><img alt="profile photo" src="Headshot - White.png" class="hoverZoomLink"></a>
+        </div>
+    </footer>
 </body>
 </html>
