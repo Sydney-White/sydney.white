@@ -1,5 +1,4 @@
-Welcome! I am a current predoctoral fellow at Yale University. I graduated from Swarthmore College in 2022. 
+Welcome! I am a PhD student at Columbia University. I graduated from Swarthmore College in 2022 and spent two years at Yale (2022-2024) working on research in international political economy. 
 
-I am interested in international political economy (both historical and contemporary). 
+Please feel free to contact me at slw2192@columbia.edu or sydney.white@yale.edu. 
 
-Please feel free to contact me at sydney.white@yale.edu. 
